@@ -1,5 +1,5 @@
-# Facebook Messenger Contact Photo Provider for ShortLook
+# Kik Contact Photo Provider for ShortLook
 
-Show Facebook Messenger users' profile pictures in ShortLook when you receive a Messenger notification!
+Show Kik users' profile pictures in ShortLook when you receive a Kik notification!
 
 (This is not ShortLook itself, but a plugin for it)
