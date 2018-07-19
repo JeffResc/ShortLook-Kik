@@ -10,7 +10,9 @@
     NSString *profileURLStr = [NSString stringWithFormat: @"http://cdn.kik.com/user/pic/%@", username];
     NSURL *profileURL = [NSURL URLWithString:profileURLStr];
     if (!profileURL) return nil;
-    return [NSClassFromString(@"DDNotificationContactPhotoPromiseOffer") offerDownloadingPromiseWithPhotoIdentifier:profileURLStr fromURL:profileURL];
+	DDNotificationContactPhotoPromiseOffer* promise = [NSClassFromString(@"DDNotificationContactPhotoPromiseOffer") offerDownloadingPromiseWithPhotoIdentifier:profileURLStr fromURL:profileURL];
+	promise.titleOverride = username;
+	return promise;
 }
 
 @end
