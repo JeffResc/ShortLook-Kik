@@ -1,4 +1,5 @@
 # Kik Contact Photo Provider for ShortLook
+[![Build Status](https://travis-ci.org/JeffResc/ShortLook-Kik.svg?branch=master)](https://travis-ci.org/JeffResc/ShortLook-Kik)
 
 Show Kik users' profile pictures in ShortLook when you receive a Kik notification!
 
