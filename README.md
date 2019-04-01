@@ -8,3 +8,11 @@ Show Kik users' profile pictures in ShortLook when you receive a Kik notificatio
 (This is not ShortLook itself, but a plugin for it)
 
 You can download this Contact Photo Provider for ShortLook from the [Dynastic Repo](https://repo.dynastic.co/package/shortlook-kik).
+
+# Changelog
+## v1.0
+Initial Release
+## v1.0.1
+Added support for displaying Kik users' usernames in ShortLook
+## v1.0.2
+Fixed an issue where profile pictures would not appear for some users.
