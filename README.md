@@ -16,3 +16,5 @@ Initial Release
 Added support for displaying Kik users' usernames in ShortLook
 ## v1.0.2
 Fixed an issue where profile pictures would not appear for some users.
+## v1.0.3
+Added A12/arm64e support.
